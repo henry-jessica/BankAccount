@@ -29,7 +29,6 @@ namespace Bank
             get { return accountType; }
             set
             {
-               // joga o problema e pega - ou eu posso deletar isso
                 if (value == "current" || value == "deposit" || value == "savings")
                 {
                     accountType = value;
